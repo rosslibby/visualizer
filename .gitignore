@@ -1,0 +1,15 @@
+node_modules
+wave.js/node_modules
+wave.js/src
+wave.js/.github
+wave.js/test
+wave.js/.gitignore
+wave.js/CODE_OF_CONDUCT.md
+wave.js/CONTRIBUTING.md
+wave.js/LICENSE
+wave.js/package-lock.json
+wave.js/package.json
+wave.js/README.md
+wave.js/rollup.config.js
+wave.js/webpack.config.js
+wave.js/yarn.lock
