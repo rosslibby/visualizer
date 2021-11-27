@@ -9,4 +9,10 @@ app.get('/', (req, res) => {
   res.sendFile('index.html', { root: __dirname })
 })
 
-app.listen(8080, () => console.log(`Listening on port 8080`))
+const PORT = process
+  ? process.env
+    ? process.env.PORT
+    : 8080
+  : 8080
+
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
