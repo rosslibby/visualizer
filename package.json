@@ -12,10 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "@foobar404/wave": "^1.2.7",
+    "esm": "^3.2.25",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "esm": "^3.2.25",
     "nodemon": "^2.0.15"
   }
 }
